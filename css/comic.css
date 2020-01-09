@@ -1,0 +1,74 @@
+.rfd-comic-display-container {
+	width: 90vw;
+	margin: auto;
+}
+.rfd-comic-display-container-inside {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.rfd-comic-display-box {
+display: flex;
+}
+.rfd-comic-image {
+	overflow: hidden;
+	padding: 30px;
+	background: #fff url(../img/stripe.png);
+}
+.rfd-comic-image img {
+	object-fit: contain;
+}
+.rfd-comic-note {
+	width: 30vw;
+	display: block;
+	padding: 2vw;
+	border-top: 5px solid #FAFAFA;
+}
+.rfd-comic-note h3 {
+	font-size: 3vh;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+.rfd-comic-navigation {
+	max-width: 60vw;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2vh;
+}
+.rfd-comic-nav-link {
+	font-size: 3vh;
+}
+.rfd-comic-nav-link a {
+	color: orange;
+	transition: .5s;
+	padding: 0 2vw;
+}
+.rfd-comic-nav-link a:hover {
+	transition.5s;
+	color: red;
+}
+.rfd-previous-comic a:hover {
+}
+/* RESPONSIVE */
+@media all and (max-width: 1200px) { 
+	.rfd-footer-container, .rfd-head-container {
+		text-align: center;
+	}
+	.rfd-comic-navigation {
+		width: auto;
+	max-width: 100%;
+	}
+	.rfd-comic-display-container-inside {
+	flex-wrap: wrap;	
+	}
+	.rfd-comic-image {
+		padding: 0;
+		background: none;
+	}
+	.rfd-comic-note {
+	width: auto;
+	display: block;
+	padding: 3vh 2vw;
+	border-top: 5px solid #FAFAFA;
+}
+}

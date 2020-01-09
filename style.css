@@ -1,0 +1,45 @@
+  /*
+Theme Name: Rose Freeman Digital Scaffold
+Author: Rose Freeman Digital
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+body {
+	margin: 0;
+	padding: 0;
+	background: #FAFAFA;
+	color: #263238;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vh;
+    line-height: 2.8vh;
+}
+/* Headings */
+h1, h2, h3, h4 {
+    font-family: 'Prompt', sans-serif;
+	font-weight: normal;
+}
+/* Header */
+.rfd-head-container, .rfd-footer-container {
+	width: 90vw;
+	margin: auto;
+}
+.rfd-head-container {
+	margin-bottom: 2vh;
+	border-bottom: 1px solid #eee;
+}
+.rfd-head-container h1:before {
+			font-family: 'FontAwesome';
+		padding-right: .5vw;
+	content: "\f121";
+}
+/* Content */
+.rfd-page-container {
+	box-sizing: border-box;
+}
+/* Footer */
+.rfd-footer-container {
+font-size: 1.5vh;
+	border-top: 1px solid #eee;
+	margin-top: 30px;
+}
